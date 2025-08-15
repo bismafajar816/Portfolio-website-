@@ -62,7 +62,7 @@ export function About() {
                 </div>
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-indigo-600 rounded-full mr-4"></div>
-                  <span className="text-gray-700">Computer Science Student</span>
+                  <span className="text-gray-700">Final Year Computer Science Student</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-cyan-800 rounded-full mr-4"></div>
@@ -70,7 +70,7 @@ export function About() {
                 </div>
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-indigo-600 rounded-full mr-4"></div>
-                  <span className="text-gray-700">Microsoft Certified</span>
+                  <span className="text-gray-700">Microsoft Certified Azure Data Scientist Associate</span>
                 </div>
               </div>
             </div>
