@@ -73,7 +73,7 @@ export function Contact() {
               <CardContent className="space-y-4">
                 <Button
                   className="w-full bg-cyan-800 hover:bg-cyan-900 text-white transition-all duration-300 transform hover:scale-105"
-                  onClick={() => window.open("mailto:bismafajarbismafajarbismafajar816@gmail.com")}
+                  onClick={() => window.open("mailto:bismafajar816@gmail.com")}
                 >
                   <Mail className="w-4 h-4 mr-2" />
                   Send Email
@@ -83,7 +83,7 @@ export function Contact() {
                   <Button
                     variant="outline"
                     className="flex-1 border-gray-300 hover:bg-gray-50 transition-all duration-300 bg-transparent"
-                    onClick={() => window.open("#")}
+                    onClick={() => window.open("https://github.com/bismafajar816")}
                   >
                     <Github className="w-4 h-4 mr-2" />
                     GitHub
@@ -91,7 +91,7 @@ export function Contact() {
                   <Button
                     variant="outline"
                     className="flex-1 border-gray-300 hover:bg-gray-50 transition-all duration-300 bg-transparent"
-                    onClick={() => window.open("#")}
+                    onClick={() => window.open("https://www.linkedin.com/in/bisma-fajar-b37397267/")}
                   >
                     <Linkedin className="w-4 h-4 mr-2" />
                     LinkedIn

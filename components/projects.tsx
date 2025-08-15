@@ -30,20 +30,24 @@ export function Projects() {
   const projects = [
     {
       title: "AQUA INSIGHTS",
-      year: "2024",
+      year: "2025",
       description:
         "Developed a machine learning model to assess water purity levels based on chemical properties and environmental data. Conducted data cleaning, feature selection, and trained classification models to predict contamination.",
       technologies: ["Python", "Machine Learning", "Data Analysis"],
       highlights:
         "Visualized findings through interactive dashboards to support decision-making for clean water initiatives.",
+      githubUrl: "https://github.com/bismafajar816/Aqua-Insights-",
+      demoUrl: "https://aqua-insights.vercel.app/",
     },
     {
       title: "SEHAT ONLINE",
       year: "2025",
       description:
-        "Developed an AI-powered medical appointment booking system with integrated chatbot assistant. Used natural language processing to handle patient queries and automate scheduling.",
+        "Developed an AI-powered medical appointment booking system with integrated chatbot assistant. Used natural language processing to handle patient queries and automate scheduling. (This project was a group project and under improvement phase currently its backend not available on web.)",
       technologies: ["Python", "AI", "NLP"],
       highlights: "Streamlined healthcare access through intelligent automation and conversational interfaces.",
+      githubUrl: "https://github.com/FatimaMano/SehatOnlineFrontend/tree/Production",
+      demoUrl: "https://sehat-online-frontend.vercel.app/",
     },
     {
       title: "MOODSNAP",
@@ -52,14 +56,18 @@ export function Projects() {
         "Built an AI-based photo gallery manager that organizes images based on facial emotion recognition. Integrated emotion-detection algorithms to categorize and tag photos by user mood.",
       technologies: ["Python", "AI", "Image Processing"],
       highlights: "Innovative approach to photo organization using computer vision and emotion detection.",
+      githubUrl: "https://github.com/leenazaheer734/MoodSnap",
+      demoUrl: "https://drive.google.com/file/d/1YGeR2VAcuSMpikYF-UIMuGQRbnowNqrJ/view?usp=drivesdk",
     },
     {
-      title: "ETHEREAL WEAR",
-      year: "2024",
+      title: "Shop Inventory for a local shop",
+      year: "2025",
       description:
-        "Created a full-stack e-commerce platform for a clothing brand using MongoDB, Express, React, and Node.js. Implemented authentication, product catalog, cart, and order history modules.",
+        "Created a shop inventory management system for a local shop using the MERN stack. This was my recent real world project. (Initial version deployed)",
       technologies: ["MERN Stack"],
-      highlights: "Complete e-commerce solution with modern web technologies and user-friendly interface.",
+      highlights: "Complete admin dashboard and billing system for a local brand.",
+      githubUrl: "https://github.com/bismafajar816/Store_Management_System_with_UI",
+      demoUrl: "https://v0-simple-mern-shop-system.vercel.app/",
     },
   ]
 
@@ -93,10 +101,20 @@ export function Projects() {
                       </Badge>
                     </div>
                     <div className="flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <Button size="sm" variant="ghost" className="p-2">
+                      <Button
+                        size="sm"
+                        variant="ghost"
+                        className="p-2"
+                        onClick={() => window.open(project.githubUrl, "_blank")}
+                      >
                         <Github className="w-4 h-4" />
                       </Button>
-                      <Button size="sm" variant="ghost" className="p-2">
+                      <Button
+                        size="sm"
+                        variant="ghost"
+                        className="p-2"
+                        onClick={() => window.open(project.demoUrl, "_blank")}
+                      >
                         <ExternalLink className="w-4 h-4" />
                       </Button>
                     </div>

@@ -28,7 +28,7 @@ export function Hero() {
           className={`transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
           <h1 className="font-serif text-5xl md:text-7xl font-bold text-gray-900 mb-6">Bisma Fajar</h1>
-          <h2 className="text-xl md:text-2xl text-cyan-800 font-semibold mb-8">Data Science Software Engineer</h2>
+          <h2 className="text-xl md:text-2xl text-cyan-800 font-semibold mb-8">Software Engineer</h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-12 leading-relaxed">
             Passionate about transforming data into actionable insights. I bridge the gap between data and
             decision-making through machine learning, statistical analysis, and innovative software solutions.
@@ -46,7 +46,7 @@ export function Hero() {
               variant="outline"
               size="lg"
               className="border-cyan-800 text-cyan-800 hover:bg-cyan-800 hover:text-white px-8 py-3 rounded-lg transition-all duration-300 bg-transparent"
-              onClick={() => window.open("mailto:bismafajarbismafajarbismafajar816@gmail.com")}
+              onClick={() => window.open("mailto:bismafajar816@gmail.com")}
             >
               <Mail className="w-4 h-4 mr-2" />
               Get In Touch
