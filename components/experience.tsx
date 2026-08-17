@@ -28,6 +28,17 @@ export function Experience() {
 
   const experiences = [
     {
+      company: "INTRAGUARD LIMITED",
+      role: "Software Developer",
+      duration: "[September 2025 – March 2026]",
+      location: "Remote, UK based",
+      achievements: [
+        "Built and maintained full-stack features using Next.js and Node.js in a production SaaS environment",
+        "Designed and integrated GraphQL APIs to power efficient client-server data flows",
+        "Collaborated with cross-functional teams to ship features, fix bugs, and improve application performance",
+      ],
+    },
+    {
       company: "FLUXXION",
       role: "Data Analysis Intern",
       duration: "May 2025 – Jul 2025",

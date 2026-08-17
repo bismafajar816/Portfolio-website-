@@ -34,16 +34,16 @@ export function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-600 leading-relaxed">
-                I'm a dedicated Data Science Software Engineer with a passion for turning complex data into meaningful
-                insights. Currently pursuing my Bachelor's in Computer Science at the University of Engineering and
-                Technology, Lahore, I maintain a strong academic record with a 3.64 GPA.
+                I'm a dedicated Software Engineer with a passion for turning complex data into meaningful insights. I
+                hold a Bachelor's in Computer Science from the University of Engineering and Technology, Lahore, where
+                I graduated with a strong academic record of 3.71/4.0 CGPA.
               </p>
 
               <p className="text-lg text-gray-600 leading-relaxed">
-                My expertise spans across machine learning, data analysis, and full-stack development. I've had the
-                privilege of working with organizations like Fluxxion and Bytewise, where I've applied my skills in
-                real-world scenarios, from building cardiac disease analysis dashboards to developing AI-powered
-                applications.
+                My expertise spans across full-stack development, machine learning, and data analysis. I've had the
+                privilege of working with organizations like Intraguard Limited, Fluxxion, and Bytewise, where I've
+                applied my skills in real-world scenarios, from building production software with Next.js and
+                GraphQL to developing cardiac disease analysis dashboards and AI-powered applications.
               </p>
 
               <p className="text-lg text-gray-600 leading-relaxed">
@@ -62,15 +62,23 @@ export function About() {
                 </div>
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-indigo-600 rounded-full mr-4"></div>
-                  <span className="text-gray-700">Final Year Computer Science Student</span>
+                  <span className="text-gray-700">Computer Science Graduate, UET Lahore</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-cyan-800 rounded-full mr-4"></div>
-                  <span className="text-gray-700">3.64/4.0 GPA</span>
+                  <span className="text-gray-700">2022 --- 2026</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-3 h-3 bg-cyan-800 rounded-full mr-4"></div>
+                  <span className="text-gray-700">3.71/4.0 CGPA</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-indigo-600 rounded-full mr-4"></div>
                   <span className="text-gray-700">Microsoft Certified Azure Data Scientist Associate</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-3 h-3 bg-cyan-800 rounded-full mr-4"></div>
+                  <span className="text-gray-700">Huawei HCIA-AI Certified</span>
                 </div>
               </div>
             </div>

@@ -60,7 +60,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Location</p>
-                    <p className="text-gray-600">Lahore, Pakistan</p>
+                    <p className="text-gray-600">Sahiwal, Punjab, Pakistan</p>
                   </div>
                 </div>
               </div>
@@ -110,7 +110,7 @@ export function Contact() {
       </div>
 
       <div className="mt-16 text-center">
-        <p className="text-gray-500">© 2025 Bisma Fajar. Crafted with passion for data and innovation.</p>
+        <p className="text-gray-500">© 2026 Bisma Fajar. Crafted with passion for data and innovation.</p>
       </div>
     </section>
   )

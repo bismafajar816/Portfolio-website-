@@ -51,7 +51,7 @@ export function Education() {
                   <div className="flex flex-col sm:flex-row gap-2 mb-4">
                     <Badge variant="secondary" className="flex items-center gap-1 w-fit">
                       <Calendar className="w-3 h-3" />
-                      Dec 2022 – Present
+                      Dec 2022 – Jun 2026
                     </Badge>
                     <Badge variant="outline" className="flex items-center gap-1 w-fit">
                       <MapPin className="w-3 h-3" />
@@ -65,10 +65,10 @@ export function Education() {
               <div className="bg-gradient-to-r from-cyan-50 to-indigo-50 p-6 rounded-lg">
                 <div className="flex items-center justify-between mb-4">
                   <h4 className="font-semibold text-gray-900">Academic Performance</h4>
-                  <Badge className="bg-green-100 text-green-800 border-green-200">Cumulative GPA: 3.64 / 4.0</Badge>
+                  <Badge className="bg-green-100 text-green-800 border-green-200">Cumulative CGPA: 3.71 / 4.0</Badge>
                 </div>
                 <p className="text-gray-600">
-                  Computer Science Department - Maintaining strong academic performance while actively engaging in
+                  Computer Science Department - Graduated with a strong academic record while actively engaging in
                   practical projects and internships.
                 </p>
               </div>

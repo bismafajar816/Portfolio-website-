@@ -33,6 +33,16 @@ export function Certifications() {
       category: "Cloud & Data Science",
     },
     {
+      title: "HCIA-AI",
+      provider: "Huawei",
+      category: "Cloud & Data Science",
+    },
+    {
+      title: "Beta Microsoft Learn Student Ambassador",
+      provider: "Microsoft",
+      category: "Soft Skills",
+    },
+    {
       title: "Microsoft R Programming Essentials and Tools",
       provider: "Microsoft",
       category: "Programming",
